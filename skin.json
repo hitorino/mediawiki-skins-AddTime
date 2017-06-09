@@ -1,17 +1,17 @@
 {
-	"name": "Timeless",
-	"version": "0.6",
-	"author": "Isarra Yos",
+	"name": "AddTime",
+	"version": "0.7",
+	"author": "Isarra Yos, Misaka 0x4e21",
 	"url": "https://www.mediawiki.org/wiki/Skin:Timeless",
 	"descriptionmsg": "timeless-desc",
-	"namemsg": "skinname-timeless",
+	"namemsg": "skinname-addtime",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"ValidSkinNames": {
-		"timeless": "Timeless"
+		"addtime": "AddTime"
 	},
 	"MessagesDirs": {
-		"Timeless": [
+		"AddTime": [
 			"i18n"
 		]
 	},
@@ -71,11 +71,11 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Timeless"
+		"remoteSkinPath": "AddTime"
 	},
 	"AutoloadClasses": {
-		"SkinTimeless": "Timeless.skin.php",
-		"TimelessTemplate": "TimelessTemplate.php"
+		"SkinAddTime": "AddTime.skin.php",
+		"AddTimeTemplate": "AddTimeTemplate.php"
 	},
 	"manifest_version": 1
 }

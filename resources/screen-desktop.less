@@ -27,9 +27,9 @@
 	width: 100%;
 	background: @background;
 	color: @text;
-	padding: 0.5em 0 0;
-	min-height: @fixed-header-height;
+	height: @fixed-header-height;
 	box-sizing: border-box;
+	background-origin: border-box;
 }
 #p-logo-text {
 	width: @column-left-size;
@@ -38,10 +38,13 @@
 #p-search {
 	margin-left: @column-left-size;
 	margin-right: @column-right-size;
+	max-width: 50%;
 }
 #user-tools {
 	width: @column-right-size;
 	float: right;
+	vertical-align: middle;
+	margin: 11px 0;
 }
 #mw-header-nav-hack,
 #mw-header-hack {
